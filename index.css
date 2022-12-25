@@ -13,25 +13,23 @@ h.highlight{
 }
 h.highlight:hover{
     font-family: 'Brush Script MT', cursive;
-    color:rgb(161, 119, 126);
+    color:rgb(198, 162, 167);
     font-size:105px;
     text-align:left;
 }
 img{
-    border-radius:50%;
-    width:100px;
-    height:100px;
+    border-radius:70%;
+    width:80px;
+    height:80px;
 }
 p{
     font-size:30px;
     font-family:cursive;
-    color:white;
-    font-weight: 200px;
-
+    color:rgb(238, 226, 226);
 }
 p1{
     font-size:30px;
-    color:white;
+    color:rgb(220, 208, 208);
     font-family:cursive;
 
 }
@@ -41,10 +39,14 @@ color:rgb(228, 127, 127);
 font-family:cursive;
 }
 #myDIV {
-    outline: 1px solid black;
-    animation: mymove 5s infinite;
+    outline: 3px solid black;
+    animation: mymove 3s infinite;
   }
   
   @keyframes mymove {
     50% {outline: 4px solid rgb(202, 214, 218);}
   }
+button{
+    font-size:100px;
+    padding:0%;
+}
